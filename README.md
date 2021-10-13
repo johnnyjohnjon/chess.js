@@ -1,6 +1,9 @@
 # chess.js
 chess.js is a Javascript chess library that is used for chess move generation/validation, piece placement/movement, and check/checkmate/stalemate detection - basically everything but the AI.
 
+success integrating chess.js with the chessboard.js library. See  [chessboard.js - Random vs Random](https://chessboardjs.com/examples#5002)
+
+
 # Example Code
 The code below plays a random game of chess:
 
@@ -131,3 +134,4 @@ const chess = new Chess('4k3/4P3/4K3/8/8/8/8/8 b - - 0 78')
 chess.in_draw()
 // -> true
 ```
+
