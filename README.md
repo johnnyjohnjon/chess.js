@@ -3,7 +3,7 @@ chess.js is a Javascript chess library that is used for chess move generation/va
 # Example Code
 The code below plays a random game of chess:
 
-const { Chess } = require('./chess.js')
+ ``` const { Chess } = require('./chess.js')
 const chess = new Chess()
 
 while (!chess.game_over()) {
@@ -11,4 +11,4 @@ while (!chess.game_over()) {
     const move = moves[Math.floor(Math.random() * moves.length)]
     chess.move(move)
 }
-console.log(chess.pgn())
+console.log(chess.pgn()) ``` 
